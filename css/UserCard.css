@@ -1,0 +1,113 @@
+.user_card_container {
+    gap: 30px;
+    padding: 140px 0 40px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_card {
+    width: 30rem;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #65727c;
+}
+
+.user_aside {
+    width: 35px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #7f00b2;
+}
+
+.user_display {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_photo {
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.user_info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user_name {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #1465bb;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.user_name h2{
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.user_info h3{
+    margin-left: 15px;
+}
+
+.user_info li, h3 {
+    text-align: center;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+
+.user_button input{
+    display: none;
+}
+
+.user_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.user_button button {
+    text-align: center;
+    width: 25%;
+    /* padding: 0.2em; */
+    margin: 0 20px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #3c3c3c;
+}
+
+.photo_label {
+    text-align: center;
+    width: 35%;
+    padding: 0.2em 0;
+    margin: 0 25px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #3c3c3c;
+}

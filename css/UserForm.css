@@ -1,0 +1,115 @@
+.user_form_container {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+    top: 0%;
+    left: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(6px);
+    padding: 0px 20px;
+	visibility: hidden;
+}
+
+.active {
+	visibility: visible;
+}
+
+.user_form_box {
+    background-color: #65727c;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+     width: 400px;
+}
+
+.user_form_header {
+	border-bottom: 2px solid #f0f0f0;
+    background-color: #7f00b2;
+	padding: 20px 40px;
+}
+
+.user_header h2 {
+	margin: 0;
+}
+
+.user_form {
+	padding: 30px 40px;	
+}
+
+.user_form_control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.user_form_control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.user_form_control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 10px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.user_form_control input:focus {
+	outline: 0;
+	border-color: #003785;
+}
+
+.user_form_control.success input {
+	border-color: #003785;
+}
+
+.user_form_control.error input {
+	border-color: #7f00b2;
+}
+
+.user_form_control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.user_form_control.success i.fa-check-circle {
+	color: #003785;
+	visibility: visible;
+}
+
+.user_form_control.error i.fa-exclamation-circle {
+	color: #7f00b2;
+	visibility: visible;
+}
+
+.user_form_control small {
+	color: #7f00b2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.user_form_control.error small {
+	visibility: visible;
+}
+
+.user_form button {
+	border: 2px solid white;
+	background-color: #7f00b2;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
